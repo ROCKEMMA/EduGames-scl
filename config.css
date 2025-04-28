@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-family: monospace;
+    font-size: 10px;
+}
+
+:root {
+    /* Colores */
+    --color-texto: #0b0b0b;
+    --color-primario: #0066cc;
+    --color-secundario: #e63946;
+
+    /* Tipografía */
+    --h2-size: 2rem;
+    --h3-size: 1.5rem;
+    --h4-size: 1.2rem;
+    --btn-size: 1.5rem;
+
+    /* Espaciado */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+
+    /* Otros */
+    --border-radius: 4px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
